@@ -3,9 +3,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
     <title>Document</title>
 </head>
 <body>
-    <h1>DONATE PAGE 1</h1>
+    <h1>DONATE PAGE</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h3 class="card-header bg-primary text-white">Donate Here</h3>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col btn btn-light btn-outline-dark">
+                                $5
+                            </div>
+                            <div class="col btn btn-light">
+                                $10
+                            </div>
+                            <div class="col btn btn-light">
+                                $25
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button class="col btn btn-light btn-outline-dark">
+                                $50
+                            </button>
+                            <button class="col btn btn-light btn-outline-dark">
+                                $100
+                            </button>
+                            <button class="col btn btn-light btn-outline-dark">
+                                $500
+                            </button>
+                        </div>
+                        <div class="row btn-toolbar" role="toolbar">
+                            <button type="button" class="col-4 btn btn-light">$1,000</button>
+                            <button type="button" class="col-4 btn btn-light">$5,000</button>
+                            <button type="button" class="col-4 btn btn-light">$10,000</button>
+                        </div>
+                        <div>
+                            <input class="col btn btn-light btn-outline-dark form-control" placeholder="Custom Amount" type="number">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>
