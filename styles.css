@@ -1,0 +1,31 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-weight: 900;
+  font-size: 90px;
+  text-align: center;
+  color:midnightblue;
+  padding-top: 20px;
+}
+.jumbotron h2 {
+  text-align: center;
+  color: white;
+}
+
+.jumbotron {
+  background-color:powderblue;
+  margin-bottom: 5px;
+}
+
+.navbar-nav {
+  float:none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav li {
+  display: inline-block;
+  float:none;
+}
