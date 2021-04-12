@@ -1,0 +1,40 @@
+__CREATE BRANCH AND WORK IN IT__
+~/Desktop/NucampFolder/NC_NonProfit_Project (main)
+$ git checkout -b start_donate_dialog
+Switched to a new branch 'start_donate_dialog'
+
+__CHECK WHAT BRANCH YOU ARE WORKING IN__
+~/Desktop/NucampFolder/NC_NonProfit_Project (start_donate_dialog)    
+$ git branch
+  main
+* start_donate_dialog
+
+__SELECT ALL FILES TO SYNC__
+~/Desktop/NucampFolder/NC_NonProfit_Project (start_donate_dialog)
+$ git add .
+
+__COMMIT YOUR CHANGES WITH MESSAGE INTO CURRENT WORKING BRANCH__
+~/Desktop/NucampFolder/NC_NonProfit_Project (start_donate_dialog)
+$ git commit -m "Experimenting Donate Buttons"
+[start_donate_dialog 249ceb7] Experimenting Donate Buttons
+ 4 files changed, 98 insertions(+), 1 deletion(-)
+ create mode 100644 .gitignore
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+
+__PUSH YOUR CHANGES TO YOUR WORKING BRANCH (AND MAKE AVAILABLE TO PULL INTO MAIN BRANCH)__
+~/Desktop/NucampFolder/NC_NonProfit_Project (start_donate_dialog)
+$ git push -u origin start_donate_dialog
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.74 KiB | 1.74 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'start_donate_dialog' on GitHub by visiting:
+remote:      https://github.com/ericmtang/NC_NonProfit_Project/pull/new/start_donate_dialog
+remote:
+To https://github.com/ericmtang/NC_NonProfit_Project.git
+ * [new branch]      start_donate_dialog -> start_donate_dialog
+Branch 'start_donate_dialog' set up to track remote branch 'start_donate_dialog' from 'origin'.
