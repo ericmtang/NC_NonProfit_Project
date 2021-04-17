@@ -82,3 +82,111 @@ h1 {
   min-height: 450px;
 }
 
+.voyageWrapper {
+  overflow: hidden;
+}
+
+
+.voyagePic {
+  max-height: 400px;
+  margin:0 -100%;
+}
+
+
+
+
+@media (min-width: 0px) {
+  .voyageHeader {
+    font-size: 25px;
+  }
+  .voyageText {
+    font-size: 20px;
+  }
+  .voyageVideo {
+    max-width: 380px;
+    padding-top: 25%;
+  }
+  .cardImageHeight {
+    height: 10rem;
+  }
+  .voyageDivingVideo {
+    height: 600px;
+  }
+  .tripLeftPic {
+    margin-bottom: 12px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .voyageHeader {
+    font-size: 60px;
+  }
+  .voyageText {
+    font-size: 30px;
+  }
+  .voyageVideo {
+    max-width: 500px;
+    padding-top: 25%;
+  }
+  .cardImageHeight {
+    height: 10rem;
+  }
+  .tripLeftPic {
+    max-width: 650px;
+    float: right;
+    margin-bottom: 12px;
+  }
+  .tripRightInfo {
+    max-width: 550px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .voyageHeader {
+    font-size: 100px;
+  }
+  .voyageText {
+    font-size: 40px;
+  }
+
+  .voyageVideo {
+    max-width: 500px;
+    padding-top: 25%;
+  }
+  .cardImageHeight {
+    height: 10rem;
+  }
+}
+
+.float-left {
+  float: left;
+}
+
+.smallTripPadding {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+
+.left-divider::before{
+  content: "";
+  width: 3px;
+  height: 96%;
+  background-color: #4d7aa6;
+  top: 7px;
+  left: 0;
+  position: absolute;
+}
+
+.left-divider-more::before{
+  content: "";
+  width: 3px;
+  height: 96%;
+  background-color: #4d7aa6;
+  top: 7px;
+  left: 20px;
+  position: absolute;
+}
+
+
