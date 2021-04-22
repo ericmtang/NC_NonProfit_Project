@@ -18,6 +18,11 @@ h1 {
   margin-bottom: 5px;
 }
 
+h2 {
+  text-align: center;
+  margin-top: 45px;
+}
+
 .navbar-nav {
   float:none;
   margin: 0 auto;
