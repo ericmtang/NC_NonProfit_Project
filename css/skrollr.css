@@ -147,13 +147,13 @@ Enjoy responsibly!
        width: 100%;
    }
    /* Slide 1 */
-   #slide-1 .bcg {background-image:url('../../images/grouppicwater.jpg')}
+   #slide-1 .bcg {background-image:url('../images/grouppicwater.jpg')}
    
    /* Slide 2 */
    #slide-2 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
    
    /* Slide 3 */
-   #slide-3 .bcg {background-image:url('../../images/grouppicsnow.jpg')}
+   #slide-3 .bcg {background-image:url('../images/grouppicsnow.jpg')}
    
    
    /* Slide 4 */
@@ -161,7 +161,7 @@ Enjoy responsibly!
    .curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
    .curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
    
-   #slide-4 .bcg {background-image:url('../../images/grouppicsun.jpg')}
+   #slide-4 .bcg {background-image:url('../images/grouppicsun.jpg')}
    
    /* Slide 5 */
    #slide-5 {position: relative;}
@@ -402,5 +402,11 @@ Enjoy responsibly!
        h3 {
            page-break-after: avoid;
        }
-   }
+    }
+
+    #skrollr-body {
+        height: 100%;
+        width: 100%;
+    
+    }
    

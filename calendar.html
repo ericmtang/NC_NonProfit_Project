@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
     <style>
         /*
@@ -159,12 +160,12 @@
         <!-- The navBar from index -->
         <div class="collapse navbar-collapse" id="studyAboardNavbar">
             <ul class="navbar-nav justify-content-center">
-                <li class="nav-item active"><a class="nav-link" href="index.html">Home Page</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home Page</a></li>
                 <li class="nav-item"><a class="nav-link" href="aboutus.html">Our mission</a></li>
                 <li class="nav-item"><a class="nav-link" href="staff.html">Our team</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Voyages</a></li>
+                <li class="nav-item"><a class="nav-link" href="trip-Fisheries.html">Voyages</a></li>
                 <li class="nav-item"><a class="nav-link" href="donate.html">Donate</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Calendar</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#">Calendar</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Application</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
             </ul>
@@ -173,7 +174,7 @@
 
     <!-- Calendar -->
     <div class="container-fluid">
-        <div class="row" style="margin-top: 50px">
+        <div class="row my-5">
             <div class="col-sm-4">
                 <div class="card">
                     <div class="card-header">
@@ -185,25 +186,23 @@
                     <div class="card-body">
                         <ul class="list-unstyled">
                             <li class="media">
-                                <!-- <div class="media-left" > -->
                                 <div class="card text-center date">
                                     <div class="card-header month">
                                         <span class="panel-title strong">
                                             Apr
                                         </span>
                                     </div>
-                                    <div class="card-body day text-danger">
+                                    <div class="card-body day text-info">
                                         1
                                     </div>
                                 </div>
-                                <!-- </div> -->
                                 <div class="media-body">
                                     <h4 class="media-heading">
                                         Open House
                                     </h4>
                                     <p>
-                                        Vivamus pulvinar mauris eu placerat blandit. In euismod tellus vel ex vestibulum
-                                        congue.
+                                        Come find out what we're all about. There will be opportunities to learn from
+                                        industry experts and expedition alumni. Refreshments will be served.
                                     </p>
                                 </div>
                             </li>
@@ -215,7 +214,7 @@
                                                 Apr
                                             </span>
                                         </div>
-                                        <div class="card-body text-danger day">
+                                        <div class="card-body text-info day">
                                             13-15
                                         </div>
                                     </div>
@@ -225,8 +224,25 @@
                                         San Juan Islands Excursion
                                     </h4>
                                     <p>
-                                        Curabitur vel malesuada tortor, sit amet ultricies mauris. Aenean consectetur
-                                        ultricies luctus.
+                                    <ul>
+                                        <li>Sail among the more remote San Juan Islands to kayak or hike where seals,
+                                            sea lions, river otters, bald eagles, and killer whales congregate
+                                        </li>
+                                        <li>
+                                            Go through Desolation Sound, on the north end of British Columbia’s Sunshine
+                                            Coast, a mecca for kayakers with its calm, sheltered waters and outstanding
+                                            natural beauty
+                                        </li>
+                                        <li>
+                                            In Alert Bay visit the U'Mista Cultural Center to see a stunning collection
+                                            of potlatch masks created by the Kwakwaka'wakw peoples
+                                        </li>
+                                        <li>
+                                            Search for killer whales in the region where they’re most reliably found in
+                                            the Northern Hemisphere
+                                        </li>
+                                    </ul>
+
                                     </p>
                                 </div>
                             </li>
@@ -238,7 +254,7 @@
                                                 Apr
                                             </span>
                                         </div>
-                                        <div class="card-body text-danger day">
+                                        <div class="card-body text-info day">
                                             21
                                         </div>
                                     </div>
@@ -248,8 +264,7 @@
                                         Meet & Greet
                                     </h4>
                                     <p>
-                                        Sed convallis dignissim magna et dignissim. Praesent tincidunt sapien eu gravida
-                                        dignissim.
+                                        Leeward will host a “meet and greet” with TDI instructor Joe Stellini at the Bellingham Shipwreck Museum in the InfoAge Science History Learning Center and Museum.
                                     </p>
                                 </div>
                             </li>
@@ -265,10 +280,6 @@
                     <h2 class="card-header bg-dark text-white"><i class="fa fa-calendar mr-3"></i>April 2021</h2>
                     <div class="card-body">
                         <div class="calendar">
-                            <!-- <div class="d-flex align-items-center"><i class="fa fa-calendar fa-3x mr-3"></i>
-                                    <h2 class="month font-weight-bold mb-0 text-uppercase">April 2021</h2>
-                                </div> -->
-                            <!--  <p class="font-italic text-muted mb-5">No events for this day.</p> -->
                             <ol class="day-names list-unstyled">
                                 <li class="font-weight-bold text-uppercase">Sun</li>
                                 <li class="font-weight-bold text-uppercase">Mon</li>
@@ -401,99 +412,221 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="btn-group btn-group-justified" role="group" aria-label="...">
-                    <div class="btn-group day" role="group">
-                        <div class="btn btn-default nopadding nocurs">
-                            <span class="day">אי</span>
-                            <span class="day">26/06</span>
-                            <div class="status">פנוי</div>
-                        </div>
+        <div class="row my-5">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>
+                            <span class="glyphicon glyphicon-calendar"> 
+                                Upcoming Events</span>
+                        </h3>
                     </div>
-                    <div class="btn-group day" role="group">
-                        <div class="btn btn-default nopadding nocurs">
-                            <span class="day">בי</span>
-                            <span class="day">27/06</span>
-                            <div class="status closed">מלה</div>
-                        </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li class="media">
+                                <div class="card text-center date">
+                                    <div class="card-header month">
+                                        <span class="panel-title strong">
+                                            Apr
+                                        </span>
+                                    </div>
+                                    <div class="card-body day text-info">
+                                        1
+                                    </div>
+                                </div>
+                                <!-- </div> -->
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        Open House
+                                    </h4>
+                                    <p>
+                                        Come find out what we're all about. There will be opportunities to learn from
+                                        industry experts and expedition alumni. Refreshments will be served.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <div class="card panel-danger text-center date">
+                                        <div class="card-header month">
+                                            <span class="panel-title strong">
+                                                Apr
+                                            </span>
+                                        </div>
+                                        <div class="card-body text-info day">
+                                            13-15
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        San Juan Islands Excursion
+                                    </h4>
+                                    <p>
+                                        <ul>
+                                            <li>Sail among the more remote San Juan Islands to kayak or hike where seals,
+                                                sea lions, river otters, bald eagles, and killer whales congregate
+                                            </li>
+                                            <li>
+                                                Go through Desolation Sound, on the north end of British Columbia’s Sunshine
+                                                Coast, a mecca for kayakers with its calm, sheltered waters and outstanding
+                                                natural beauty
+                                            </li>
+                                            <li>
+                                                In Alert Bay visit the U'Mista Cultural Center to see a stunning collection
+                                                of potlatch masks created by the Kwakwaka'wakw peoples
+                                            </li>
+                                            <li>
+                                                Search for killer whales in the region where they’re most reliably found in
+                                                the Northern Hemisphere
+                                            </li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <div class="card panel-danger text-center date">
+                                        <div class="card-header month">
+                                            <span class="panel-title strong all-caps">
+                                                Apr
+                                            </span>
+                                        </div>
+                                        <div class="card-body text-info day">
+                                            21
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        Meet & Greet
+                                    </h4>
+                                    <p>
+                                        Leeward will host a “meet and greet” with TDI instructor Joe Stellini at the Bellingham Shipwreck Museum in the InfoAge Science History Learning Center and Museum.                                  
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-default btn-block">More Events »</a>
                     </div>
-                    <div class="btn-group day" role="group">
-                        <div class="btn btn-default nopadding nocurs">
-                            <span class="day">גי</span>
-                            <span class="day">28/06</span>
-                            <div class="status">פנוי</div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="card">
+                    <h2 class="card-header bg-dark text-white"><i class="fa fa-calendar mr-3"></i>April 2021</h2>
+                    <div class="card-body bg-light">
+                        <div class="row text-uppercase font-weight-bold pb-2">
+                            <div class="col border-bottom">Mon</div>
+                            <div class="col border-bottom">Tue</div>
+                            <div class="col border-bottom">Wen</div>
+                            <div class="col border-bottom">Thu</div>
+                            <div class="col border-bottom">Fri</div>
+                            <div class="col border-bottom">Sat</div>
+                            <div class="col border-bottom">Sun</div>
                         </div>
-                    </div>
-                    <div class="btn-group day" role="group">
-                        <div class="btn btn-default nopadding nocurs">
-                            <span class="day">די</span>
-                            <span class="day">29/06</span>
-                            <div class="status closed">מלה</div>
+                        <div class="row" style="height: 10vw;">
+                            <div class="col border position-relative">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <span class="position-absolute top-1 left-1">28a</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col border">
+                                <h5 class="row">
+                                    <div class="col-1">29
+                                    </div>
+                                </h5>
+                            </div>
+                            <div class="col border">30</div>
+                            <div class="col border">31</div>
+                            <div class="col border">1</div>
+                            <div class="col border">2</div>
+                            <div class="col border">3</div>
                         </div>
-                    </div>
-                    <div class="btn-group day" role="group">
-                        <div class="btn btn-default nopadding nocurs">
-                            <span class="day">הי</span>
-                            <span class="day">30/06</span>
-                            <div class="status closed">מלה</div>
+                        <div class="row" style="line-height: 100px">
+                            <div class="col border">
+                                <h5 class="row">
+                                    <div class="col-1">4
+                                    </div>
+                                </h5>
+                                <h5 class="row bg-primary rounded-left">
+                                    <div class="col rounded-left text-overflow">
+                                        Cancun
+                                    </div>
+                                </h5>
+                            </div>
+                            <div class="col border">
+                                <h6 class="row">
+                                    <div class="col-1">5
+                                    </div>
+                                </h6>
+                                <h5 class="row">
+                                    <span class="badge badge-pill badge-danger">Danger</span>
+                                </h5>
+                            </div>
+                            <div class="col border">
+                                <h6 class="row">
+                                    <div class="col-1">6
+                                    </div>
+                                </h6>
+                                <span class="badge badge-pill badge-danger">Danger</span>
+                            </div>
+                            <div class="col border">7</div>
+                            <div class="col border">8</div>
+                            <div class="col border">9</div>
+                            <div class="col border">10</div>
                         </div>
-                    </div>
-                    <div class="btn-group day" role="group">
-                        <div class="btn btn-default nopadding">
-                            <span class="day">שי</span>
-                            <span class="day">31/06</span>
-                            <div class="status">פנוי</div>
+                        <div class="row" style="line-height: 100px">
+                            <div class="col border text-truncate text-nowrap" style="text-overflow: ellipsis">
+                                <h5 class="row">
+                                    <div class="col-1">11</div>
+                                </h5>
+                                <h5 class="row">
+
+                                    <div class="col bg-primary rounded-left text-white" style="font-size:.85vw">
+                                        Cancun Cancun </div>
+                                </h5>
+
+                            </div>
+                            <div class="col border">12</div>
+                            <div class="col border">13</div>
+                            <div class="col border">14</div>
+                            <div class="col border">15</div>
+                            <div class="col border">16</div>
+                            <div class="col border">17</div>
+                        </div>
+                        <div class="row">
+                            <div class="col border" style="padding-bottom: 5%">
+                                <h5 class="row">
+                                    <div class="col-1">18</div>
+                                </h5>
+                                <h5 class="row">
+
+                                    <div class="col bg-primary rounded-left text-white" style="font-size:.75vw">
+                                        Cancun Cancun </div>
+                                </h5>
+
+                            </div>
+                            <div class="col border">19</div>
+                            <div class="col border">20</div>
+                            <div class="col border">21</div>
+                            <div class="col border">22</div>
+                            <div class="col border">23</div>
+                            <div class="col border">24</div>
+                        </div>
+                        <div class="row" style="line-height: 75px">
+                            <div class="col border">25</div>
+                            <div class="col border">26</div>
+                            <div class="col border">27</div>
+                            <div class="col border">28</div>
+                            <div class="col border">29</div>
+                            <div class="col border">30</div>
+                            <div class="col border">1</div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class='container-fuid'>
-        <table class='table'>
-            <!-- add style="table-layout:fixed;" so that table do not vary in width due to text size variations -->
-            <tr>
-                <td>Content</td>
-                <td>Content</td>
-                <td>Content</td>
-                <td>Content</td>
-                <td>Content</td>
-                <td>Content</td>
-                <td>Content</td>
-                <td>Content</td>
-            </tr>
-        </table>
-    </div>
-
-    <div class='container-fuid'>
-        <div class="row">
-            <div class="col">Mon</div>
-            <div class="col">Tue</div>
-            <div class="col">Wen</div>
-            <div class="col">Thu</div>
-            <div class="col">Fri</div>
-            <div class="col">Sat</div>
-            <div class="col">Sun</div>
-        </div>
-    </div>
-
-    <div class='container-fuid'>
-        <div class="row">
-            <div class="col"></div>
-            <div class='w-100 d-md-none'></div>
-            <div class="col"></div>
-            <div class='w-100 d-md-none'></div>
-            <div class="col"></div>
-            <div class='w-100 d-md-none'></div>
-            <div class="col"></div>
-            <div class='w-100 d-md-none'></div>
-            <div class="col"></div>
-            <div class='w-100 d-md-none'></div>
-            <div class="col"></div>
-            <div class='w-100 d-md-none'></div>
-            <div class="col"></div>
         </div>
     </div>
 
